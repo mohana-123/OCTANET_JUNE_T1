@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mobile Web Development Landing Page</title>
+	<style>
+		body {
+     font-family: Arial, sans-serif;
+     margin: 0;
+     padding: 0;
+}
+
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+     background-color: #003049;
+     color: #fff;
+     padding: 20px;
+     text-align: center;
+	position: sticky;
+	top: 0;
+	bottom: 0;
+}
+
+header h1 {
+     margin: 0;
+}
+
+nav ul {
+     list-style-type: none;
+     padding: 0;
+     margin: 0;
+}
+
+nav ul li {
+     display: inline-block;
+     margin: 0 10px;
+}
+
+nav ul li a {
+     color: #f8f8f8;
+     text-decoration: none;
+}
+
+section {
+     padding: 40px 0;
+}
+
+#hero {
+     background-image: url('with mobile.jpg');
+     background-size: cover;
+     background-position: center;
+     text-align: center;
+     color: #fff;
+     padding: 160px 0;
+}
+
+.hero-content {
+     margin: 0 auto;
+     width: 80%;
+}
+
+#about {
+     background-color: #6d9ae7;
+     text-align: center;
+     padding: 40px 100px;
+}
+
+#insights {
+     background-color: #fff;
+     text-align: center;
+     padding: 40px 0;
+}
+
+.insigh {
+     display: inline-block;
+     width: 30%;
+     margin: 20px;
+     padding: 20px;
+     border: 1px solid #ccc;
+     border-radius: 5px;
+}
+
+#build {
+     background-color: #e5e5e5;
+     text-align: center;
+     padding: 40px 0;
+}
+
+.builds {
+     display: inline-block;
+     width: 30%;
+     margin: 20px;
+     padding: 20px;
+     border: 1px solid #ccc;
+     border-radius: 5px;
+}
+
+
+
+#contact {
+     background-color: #6d9ae7;  
+     text-align: center;
+     padding: 40px 0;
+}
+
+footer {
+     background-color: #333;
+     color: #fff;
+     padding: 20px;
+     text-align: center;
+}
+
+.btn {
+     -webkit-border-radius: 28;
+     -moz-border-radius: 28;
+     border-radius: 28px;
+     font-family: Georgia;
+     color: #ffffff;
+     font-size: 20px;
+     background: #3498db;
+     padding: 10px 20px 10px 20px;
+     text-decoration: none;
+   }
+   
+   .btn:hover {
+     background: #003049;
+     background-image: -webkit-linear-gradient(top, #003049, #6d9ae7);
+     background-image: -moz-linear-gradient(top, #003049, #6d9ae7);
+     background-image: -ms-linear-gradient(top, #003049, #6d9ae7);
+     background-image: -o-linear-gradient(top, #003049, #6d9ae7);
+     background-image: linear-gradient(to bottom, #003049, #6d9ae7);
+     text-decoration: none;
+   }
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Mobile App Development</h1><br><br><br>
+		<nav>
+			<ul>
+				<li><a href="#about" class="btn">About</a></li>
+				<li><a href="#insights" class="btn">Insights</a></li>
+				<li><a href="#build" class="btn">Building tools</a></li>
+				<li><a href="#contact" class="btn">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<section id="hero">
+		<div class="hero-content">
+			<h2>Developing Together</h2>
+			<p>Discover the potential of Mobile development and elevate our needs and business to new heights.</p>
+			<br>
+		    <a href="#insights" class="btn">Learn More</a>
+		</div>
+	</section>
+
+	<section id="about">
+		<h2>About</h2>
+		<p>Mobile web development involves creating websites that are optimized for viewing on 
+			mobile devices. It focuses on responsive design, fast loading times, and intuitive user 
+			experiences. Developers use HTML, CSS, and JavaScript to build mobile-friendly websites that
+			 adapt to different screen sizes and provide a seamless browsing experience.</p>
+	</section>
+
+	<section id="insights">
+		<h2>Insights</h2>
+		<div class="insigh">
+			<h3>User Experience</h3>
+			<p>In today's competitive digital landscape, understanding the crucial role of UI/UX design in mobile
+				 applications is paramount for businesses looking to make an impact.</p>
+			<img src="ux.jpg" width="50%" height="200%" alt="Local Market">
+		</div>
+		<div class="insigh">
+			<h3>Future of Mobile Development</h3>
+			<p>Rapid technological advances are expected to cause significant shifts in the mobile 
+				app development sector, changing how we use our gadgets.</p>
+			<img src="future.jpg" width="50%" height="200%" alt="Wholesale Market">
+		</div>
+		<div class="insigh">
+			<h3>Export Market</h3>
+			<p> As technology evolves rapidly, staying updated with in-demand programming languages is 
+				essential for developers and businesses. We will discuss popular languages such as Java, 
+				Kotlin, Swift, C#, and the HTML5/CSS3/JavaScript stack that have proven effective in 
+				developing native, both native apps, hybrid apps, and web applications.</p>
+			<img src="tech.png" width="50%" height="200%" alt="Export Market">
+		</div>
+	</section>
+
+	<section id="build">
+		<h2>Building tools</h2>
+		<div class="builds">
+			<h3>HTML/CSS, Javascript</h3>
+			<p>HTML and CSS are the building blocks of web pages. HTML provides structure, while CSS adds 
+				style and layout. JavaScript is a programming language that adds interactivity and 
+				dynamic elements to websites. Together, they create the foundation for modern web 
+				development.</p>
+		</div>
+		<div class="builds">
+			<h3>React Native</h3>
+			<p>React Native is a popular JavaScript framework for building mobile applications. It allows
+				 developers to create cross-platform apps using a single codebase, leveraging the power 
+				 of React to build native user interfaces. With its efficiency and flexibility,
+				  React Native has gained widespread adoption in the mobile development community.</p>
+		</div>
+		<div class="builds">
+			<h3>Java</h3>
+			<p>Java is a versatile, object-oriented programming language widely used for developing
+				 applications. Known for its platform independence, it allows code to run on different
+				  operating systems. Java's robust libraries, garbage collection, and wide community
+				 support make it popular for building everything from mobile apps to enterprise-level
+				  software systems.</p>
+		</div>
+	</section>
+
+	<section id="contact">
+		<h2>Contact Us</h2>
+		<p>Ready to take your farming business to the next level? Contact us for personalized advice, consultancy services, and partnership opportunities.</p>
+		<form>
+			<input type="text" placeholder="Name"><br><br>
+			<input type="email" placeholder="Email"><br><br>
+			<textarea placeholder="Message"></textarea><br><br>
+			<button type="submit" class="btn">Send</button><br><br>
+		</form>
+	</section> 
+
+	<footer>
+		<p>&copy; 2023 Mobile Web Development Landing Page. All rights reserved.</p>
+	</footer>
+</body>
+</html>
